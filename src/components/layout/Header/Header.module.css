@@ -1,0 +1,48 @@
+
+.displayFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 5px 25px 5px 25px;
+}
+.displayFlex ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+}
+.displayFlex ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.displayFlex button a{
+    background-color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+}
+.displayFlex button{
+    padding: 0;
+    border: none;
+    
+}
+.buttonDiv{
+    display: flex;
+    gap: 10px ;
+}
+
+.displayFlex ul li a:hover{
+    padding: 5px;
+    border: solid 1px #000;
+}
+.displayFlex button a:hover{
+    padding: 17px 34px;
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+}

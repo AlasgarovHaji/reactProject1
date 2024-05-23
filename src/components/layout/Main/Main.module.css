@@ -1,0 +1,28 @@
+.mainStyle{
+    background-color: #f0f0f0;
+    display: flex;
+    padding-left: 80px;
+    gap: 110px;
+    font-size: 25px;
+}
+
+.mainStyle input{
+    border: 1px solid black;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.mainStyle button{
+    border: 1px solid blue;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.mainStyle button:hover{
+    padding: 15px 30px;
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+}
+.mainStyle>div img{
+    padding: 40px 0;
+}
